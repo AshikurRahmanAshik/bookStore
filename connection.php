@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dns = "mysql:host=$servername;dbname=asik";
+$servername = "sql6.freesqldatabase.com";
+$username = "sql6465331";
+$password = "33rrVL4kiB";
+$dns = "mysql:host=$servername;dbname=sql6465331";
 $conn;
 try {
     $conn = new PDO($dns, $username, $password);
